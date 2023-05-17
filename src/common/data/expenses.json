@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "user": 1,
+    "title": "My first post",
+    "content": "This is my first post",
+    "price": 100,
+    "state": "Completado",
+    "date": "15/06/2023",
+    "time": "9:30 AM"
+  }
+]

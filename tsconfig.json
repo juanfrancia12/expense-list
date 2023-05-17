@@ -20,9 +20,33 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+
+      "@app/*": ["./src/app/*"],
+      "@common/*": ["./src/common/*"],
+      "@modules/*": ["./src/modules/*"],
+      "@styles/*": ["./src/styles/*"],
+
+      "@api-server/*": ["./src/app/api/*"],
+
+      "@api-common/*": ["./src/common/api/*"],
+      "@components/*": ["./src/common/components/*"],
+      "@constants/*": ["./src/common/constants/*"],
+      "@data/*": ["./src/common/data/*"],
+      "@helpers/*": ["./src/common/helpers/*"],
+      "@hooks/*": ["./src/common/hooks/*"],
+      "@interfaces/*": ["./src/common/interfaces/*"],
+      "@providers/*": ["./src/common/providers/*"],
+      "@services/*": ["./src/common/services/*"],
+      "@wrappers/*": ["./src/common/wrappers/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/api/pageEEEE.ts"
+  ],
   "exclude": ["node_modules"]
 }
